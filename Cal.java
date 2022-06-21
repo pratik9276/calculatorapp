@@ -12,10 +12,12 @@ public class Cal {
 		System.out.println("2.Multiplication");
 		System.out.println("3.Substraction");
 		System.out.println("4.Divide");
-		System.out.println("5.Percentage");
 		System.out.println("6.sin");
 		System.out.println("7.tan");
 		System.out.println("8.Exit");
+
+		System.out.println("5.Percentage");
+		
 		choise=s.nextInt();
 		
 		switch(choise)
@@ -68,6 +70,7 @@ public class Cal {
 			  double b=s.nextInt();
 			  System.out.println(" "+(Math.tan(b)));
 			  break;
+
 			  
 		  case 8:
 			  break;
