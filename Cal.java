@@ -16,63 +16,55 @@ public class Cal {
 		System.out.println("7.tan");
 		System.out.println("8.Exit");
 
-		System.out.println("5.Percentage");
 		
-		choise=s.nextInt();
+		choise=1;
 		
 		switch(choise)
 		{
 		  case 1:
 			  System.out.println("Enter Two Numbers");
-			  num1=s.nextInt();
-			  num2=s.nextInt();
+			  num1=10;
+			  num2=20;
 			  System.out.println("Addition : "+(num1+num2));
-			  break;
+			  //break;
 			  
 		  case 2:
 			  System.out.println("Enter Two Numbers");
-			  num1=s.nextInt();
-			  num2=s.nextInt();
+			  num1=5;
+			  num2=5;
 			  System.out.println("Multiplication : "+(num1*num2));
-			  break;
+			 // break;
 			  
 		  case 3:
 			  System.out.println("Enter Two Numbers");
-			  num1=s.nextInt();
-			  num2=s.nextInt();
+			  num1=10;
+			  num2=5;
 			  System.out.println("Substraction : "+(num1-num2));
-			  break;
+			  //break;
 			  
 		  case 4:
 			  System.out.println("Enter Two Numbers");
-			  num1=s.nextInt();
-			  num2=s.nextInt();
+			  num1=50;
+			  num2=5;
 			  System.out.println("Divide: "+(num1/num2));
-			  break;
+			 // break;
 			  
-		  case 5:
-			  System.out.println("Enter 4 subject mark :");
-			  int n1=s.nextInt();
-			  int n2=s.nextInt();
-			  int n3=s.nextInt();
-			  int n4=s.nextInt();
-			  System.out.println("Persentage : "+(((n1+n2+n3+n4)*100)/400));
-			  break;
 			  
 		  case 6:
-			  System.out.println("Enter number");
-			  double a=s.nextInt();
+			  System.out.println("enter the number");
+			  double a=10;
 			  System.out.println(" "+(Math.sin(a)));
-			  break;
+			  //break;
 			  
 		  case 7:
 			  System.out.println("Enter number");
-			  double b=s.nextInt();
+			  double b=15;
 			  System.out.println(" "+(Math.tan(b)));
-			  break;
+			  //break;
 
 			  
 		  case 8:
+                          choise=8;
 			  break;
 			  
 		}
